@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/index.css') }}">
+<title>NetworkChecker - What's my IP?</title>
+{% endblock %}
+
+{% block body %}
+<center>
+<div id="content">
+        <p id="header">What's my IP?</p>
+        <br>
+        <p id="local-label">Local IP:</p>
+        <p id="local-ip">{{ variable }}</p>
+        <br>
+        <p id="public-label">Public IP:</p>
+        <p id="public-ip">{{ variable2 }}</p>
+        <br>
+        <a href="" id="check-wifi">Check passwords of already connected WiFi's.</a>
+</div>
+</center>
+{% endblock %}

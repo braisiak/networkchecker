@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #121212;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+#content {
+    padding: 20px;
+    margin: 15%;
+    background-color: #252525;
+    border-radius: 25px;
+}
+
+#header {
+    font-size: 32px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+#local-label {
+    font-size: 26px;
+    margin: 5px;
+}
+
+#local-ip {
+    color: black;
+    font-size: 24px;
+    border: 1px solid black;
+    background-color: white;
+    width: 20%;
+    padding: 10px;
+}
+
+#public-label {
+    font-size: 26px;
+    margin: 5px;
+}
+
+#public-ip {
+    color: black;
+    font-size: 24px;
+    border: 1px solid black;
+    background-color: white;
+    width: 20%;
+    padding: 10px;
+}
+
+#check-wifi {
+    color: turquoise;
+    text-decoration: none;
+}
+#check-wifi:hover {
+    color: rgb(37, 126, 117);
+}
