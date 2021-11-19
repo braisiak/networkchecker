@@ -1,0 +1,7 @@
+// v0.1
+- Created some basic files and directories
+- Created virtual environment
+- Created run.bat
+
+// v0.2
+- Created main page (index.html) which shows your local and public ip adress
