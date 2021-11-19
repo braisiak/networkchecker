@@ -5,3 +5,7 @@
 
 // v0.2
 - Created main page (index.html) which shows your local and public ip adress
+
+// v0.3
+- Created login page (login.html) and it's css style (login.css)
+- Fixed code look
