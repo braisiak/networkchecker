@@ -2,7 +2,7 @@
 
 {% block head %}
 <link rel="stylesheet" href="{{ url_for('static', filename='styles/index.css') }}">
-<title>NetworkChecker - What's my IP?</title>
+<title>What's my IP? - NetworkChecker</title>
 {% endblock %}
 
 {% block body %}
@@ -16,7 +16,7 @@
         <p id="public-label">Public IP:</p>
         <p id="public-ip">{{ variable2 }}</p>
         <br>
-        <a href="" id="check-wifi">Check passwords of already connected WiFi's.</a>
+        <a href="/login/" id="check-wifi">Check passwords of already connected WiFi's.</a>
 </div>
 </center>
 {% endblock %}

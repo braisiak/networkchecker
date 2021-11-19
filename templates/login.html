@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/login.css') }}">
+<title>Sign in to NetworkChecker - NetworkChecker</title>
+{% endblock %}
+
+{% block body %}
+<center>
+    <div id="content">
+            <p id="header">Sign in to NetworkChecker</p>
+            <br>
+            <form id="signingIn">
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br>
+                <input type="submit" id="signInButton" value="Sign in">
+            </form> 
+    </div>
+    </center>
+{% endblock %}
